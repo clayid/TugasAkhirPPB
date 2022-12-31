@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_16dp"
+    android:background="@drawable/rounded_shape">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paket di pilih"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/Total_paket_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yang_harus_dibayar"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/Total_harga_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@color/RED"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/uang_pembayaran_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Masukan Uang anda"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/margin_24dp"
+        android:layout_marginRight="@dimen/margin_24dp"
+        android:layout_marginTop="@dimen/margin_24dp"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="@drawable/rounded_edittext"/>
+    <Button
+        android:id="@+id/hitung_btn_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hitung"
+        android:background="@drawable/rounded_shape"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_24dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/kembalian_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kembalian"
+        android:visibility="gone"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/kembalian_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_shape"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/Margin_Vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/cancel_btn_dialog"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_shape"
+            android:text="@string/cancel"/>
+        <Button
+            android:id="@+id/bayar_btn_dialog"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_shape"
+            android:layout_marginStart="52dp"
+            android:enabled="false"
+            android:text="@string/bayar"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateUserPas">
+
+    <include layout="@layout/new_action_bar2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Margin_Horizontal"
+        android:layout_marginRight="@dimen/Margin_Horizontal"
+        android:layout_marginTop="@dimen/Margin_Vertical"
+        android:layout_marginBottom="@dimen/Margin_Vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/Margin_Vertical"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setelah melakukan update anda harus Login ulang"
+            android:textColor="@color/RED"
+            android:gravity="center"
+            android:padding="@dimen/padding_16dp"/>
+
+        <EditText
+            android:id="@+id/username_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_16dp"
+            android:hint="Username"
+            android:layout_marginTop="@dimen/Margin_Vertical"
+            android:background="@drawable/rounded_edittext"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/password_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_16dp"
+            android:hint="Password"
+            android:layout_marginTop="@dimen/Margin_Vertical"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="textPassword"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin_Vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_width="154dp"
+                android:layout_height="47dp"
+                android:layout_marginRight="@dimen/Margin_Horizontal"
+                android:background="@drawable/rounded_shape"
+                android:text="@string/update" />
+
+            <Button
+                android:id="@+id/reset_btn_update"
+                android:layout_width="154dp"
+                android:layout_height="47dp"
+                android:background="@drawable/rounded_shape"
+                android:text="@string/reset" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

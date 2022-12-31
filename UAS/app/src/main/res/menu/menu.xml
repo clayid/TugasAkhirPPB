@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/History"
+        android:title="@string/history"/>
+    <item
+        android:id="@+id/call_center_menu"
+        android:title="@string/call_center"/>
+
+    <item
+        android:id="@+id/sms_center_menu"
+        android:title="@string/sms_center"/>
+
+    <item
+        android:id="@+id/lokasi_menu"
+        android:title="@string/lokasi_maps"/>
+
+    <item
+        android:id="@+id/update_menu"
+        android:title="@string/update_user_and_password"/>
+
+    <item
+        android:id="@+id/logout_menu"
+        android:title="@string/logout"/>
+
+</menu>

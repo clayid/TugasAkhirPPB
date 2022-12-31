@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">UAS</string>
+    <string name="login">Login</string>
+    <string name="warning">Username atau Password anda salah !</string>
+    <string name="reset">reset</string>
+    <string name="belum_punya_akun">Belum punya akun ? </string>
+    <string name="_register">Register</string>
+    <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <string name="sudah_punya_akun">Sudah punya akun ? </string>
+    <string name="paket_wisata">Paket Wisata</string>
+
+    <string name="deskripsi">Deskripsi</string>
+    <string name="yang_harus_dibayar">Yang Harus dibayar</string>
+    <string name="cancel">Cancel</string>
+    <string name="bayar">Bayar</string>
+    <string name="kembalian">Kembalian</string>
+    <string name="call_center">Call Center</string>
+    <string name="sms_center">SMS Center</string>
+    <string name="lokasi_maps">Lokasi/Maps</string>
+    <string name="update_user_and_password">Update User and Password</string>
+    <string name="logout">Logout</string>
+    <string name="update">update</string>
+
+    <string name="sms_dan_call">
+        <br><b>Call Center : </b>\n</br>
+        <br>+62 89090-1231\n</br>
+
+        <br><b>SMS Center : </b>\n</br>
+        <br>+62 08231-31231 \n</br>
+
+        <br><b>E-mail : </b>\n</br>
+        <br>111201911924@mhs.dinus.ac.id\n</br></string>
+    <string name="history">History</string>
+</resources>
